@@ -168,6 +168,7 @@ body{
 
 #art h3{
     color:#333131;
+    margin-bottom: 30px;
 }
 
 #art a{
@@ -196,12 +197,22 @@ body{
 
 #contact h3{
     color: #332f2c;
-    padding: 5px 10px 10px 25px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-/*  position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    */
+#contact p{
+    text-align: center;
+}
+#contact .fa{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+#contact .centered{
+    width: 25%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
