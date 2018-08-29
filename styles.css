@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100%;
     /* background: linear-gradient(132deg,#16A085, #F4D03F); */
-    background: linear-gradient(132deg,#B75163, #dd8a6c);
+    background: #f7f5f4;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
@@ -23,12 +23,26 @@ body{
 .container{
     margin: 0 auto;
     vertical-align: middle;
-    margin-bottom: 2%;
     padding: 0;
-    width: 85%;
+    width: 100%;
     height: auto;
-    border-radius: 5px;
-    box-shadow: 3px 3px 6px #cc5d5d;
+}
+
+#home .btn{
+    background:none;
+    border: 2px solid #332f2c;
+    color:#332f2c;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#home .btn:hover{
+    border: 2px solid #e84845;
+    color:#e84845; 
 }
 
 #home{
@@ -39,50 +53,46 @@ body{
 }
 
 #home img{
-    position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }
 
-#home h1{
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-#home h3{
-    color: white;
+#home h4{
+    color: #332f2c;
     font-weight: bold;
     text-align: center;
 }
 
 #about{
-    background:#f9f1ed;
+    background:linear-gradient(132deg,#c65151, #db7062);
 }
 
 #about h3{
-    position: relative;
-    display: block;
-    color: #333131;
-    padding: 5px 10px 10px 25px;
+    color: white;
+    margin-bottom: 30px;
 }
 
 #about h4{
-    color:#333131;
+    color:white;
     padding: 5px 10px 10px 15px;
 }
 
+#about p{
+    color: white;
+}
+
 .progress{
-    background: #eae2dc;
+    background: white;
     border: none;
     border-radius: 0;
+    box-shadow: 4px 4px 6px #c65151;
 }
 
 .progress-bar{
-    background: #353551;
+    background: #2f3c4c;
     border-radius: 0;
     border: none;
 }
@@ -95,18 +105,20 @@ body{
 }
 
 .wrapper{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    vertical-align: middle;
+    margin-top: 40px; 
+    margin-bottom: 50px
 }
 
 #projects{
-    background:#f9f1ed;
+    background:linear-gradient(132deg,#c65151, #db7062);
 }
 
 #projects h3{
-    color:#333131;
-    padding: 5px 10px 10px 25px;
+    color:white;
+    margin-bottom: 30px;
 }
 
 #projects img{
@@ -114,6 +126,8 @@ body{
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
+    max-height: 400px;
+    margin: 0 auto;
 }
 
 #projects .caption{
@@ -129,8 +143,8 @@ body{
 }
 
 #projects .text{
-    color: #423e3b;
-    font-size: 12px;
+    color: white;
+    font-size: 11px;
     font-weight: bold;
 }
 
@@ -149,18 +163,16 @@ body{
 
 
 #art{
-    background:#f9f1ed;
+    background: #f7f5f4;
 }
 
 #art h3{
     color:#333131;
-    padding: 5px 10px 10px 25px;
 }
 
 #art a{
     color:#333131;
     display: inline-block;
-    margin-left: 25px;
     margin-bottom: 25px;
     text-decoration: none;
 }
@@ -170,17 +182,20 @@ body{
 }
 
 #art img{
-    height: 100%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
     margin-bottom: 30px;
     box-shadow: 4px 4px 8px #ccbcb5;
 }
 
 #contact{
-    background: #333131;
+    background: #f7f5f4;
 }
 
 #contact h3{
-    color: white;
+    color: #332f2c;
     padding: 5px 10px 10px 25px;
 }
 
